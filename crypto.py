@@ -1,3 +1,4 @@
+# This is new project 
 # python module for one-timepad 
 import onetimepad 
 # python module to create GUI		 
@@ -8,6 +9,10 @@ root = Tk()
 root.title("CRYPTOGRAPHY") 
 root.geometry("800x600") 
 
+
+def welcome():
+	print("Welcome")
+	
 def encryptMessage():					 
 	pt = e1.get() 
 
